@@ -175,6 +175,8 @@ Error message and password prompt
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-tiddler</li>
 
+<li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/print</li>
+
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/refresh</li>
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/save-wiki</li>
@@ -286,7 +288,7 @@ Error message and password prompt
 {"created":"20220914214951204","creator":"Fabs","title":"$:/config/NewJournal/Title","text":"YYYY-0MM-0DD ","modified":"20230112174223222","modifier":"Fabs"},
 {"created":"20220908000951540","creator":"Fabs","text":"show","title":"$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/advanced-search","modified":"20230312112353599","type":"text/vnd.tiddlywiki","revision":"0","bag":"default","modifier":"Fabs"},
 {"created":"20230312112333325","creator":"Fabs","text":"show","title":"$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/close-all","modified":"20230312112333325","modifier":"Fabs"},
-{"created":"20220908124826033","creator":"Fabs","text":"show","title":"$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/control-panel","modified":"20230312123529190","modifier":"Fabs"},
+{"created":"20220908124826033","creator":"Fabs","text":"hide","title":"$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/control-panel","modified":"20230312140117208","modifier":"Fabs"},
 {"created":"20230312112336374","creator":"Fabs","text":"show","title":"$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/fold-all","modified":"20230312112336374","modifier":"Fabs"},
 {"title":"$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home","created":"20220907222642524","modified":"20220907222642524","type":"text/vnd.tiddlywiki","text":"show","revision":"0","bag":"default"},
 {"created":"20220914214840586","creator":"Fabs","text":"hide","title":"$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/import","modified":"20230312112253515","modifier":"Fabs"},
@@ -295,8 +297,9 @@ Error message and password prompt
 {"created":"20220907222700405","text":"hide","title":"$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/more-page-actions","modified":"20220908124842482","type":"text/vnd.tiddlywiki","revision":"0","bag":"default"},
 {"created":"20220914214838136","creator":"Fabs","text":"hide","title":"$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-journal","modified":"20230312112244496","modifier":"Fabs"},
 {"created":"20220908124824924","creator":"Fabs","text":"hide","title":"$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-tiddler","modified":"20230312112241175","modifier":"Fabs"},
+{"created":"20230312140053782","creator":"Fabs","text":"show","title":"$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/print","modified":"20230312140053782","modifier":"Fabs"},
 {"title":"$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/refresh","created":"20220907222659009","modified":"20220907222659009","type":"text/vnd.tiddlywiki","text":"show","revision":"0","bag":"default"},
-{"created":"20230312112302007","creator":"Fabs","text":"show","title":"$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/save-wiki","modified":"20230312135954398","modifier":"Fabs"},
+{"created":"20230312112302007","creator":"Fabs","text":"hide","title":"$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/save-wiki","modified":"20230312140052748","modifier":"Fabs"},
 {"created":"20220908123833700","creator":"Fabs","text":"show","title":"$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/storyview","modified":"20230312112414874","modifier":"Fabs"},
 {"created":"20220908000953897","text":"hide","title":"$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/tag-manager","modified":"20220908124830229","type":"text/vnd.tiddlywiki","revision":"0","bag":"default"},
 {"created":"20220908001001211","text":"hide","title":"$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/timestamp","modified":"20220908124832573","type":"text/vnd.tiddlywiki","revision":"0","bag":"default"},
