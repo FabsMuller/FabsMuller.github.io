@@ -145,6 +145,8 @@ Error message and password prompt
 
 <li>$:/config/AnimationDuration</li>
 
+<li>$:/config/DefaultMoreSidebarTab</li>
+
 <li>$:/config/DownloadSaver/AutoSave</li>
 
 <li>$:/config/Navigation/openLinkFromInsideRiver</li>
@@ -186,6 +188,8 @@ Error message and password prompt
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/unfold-all</li>
 
 <li>$:/config/RelinkOnRename</li>
+
+<li>$:/config/TextEditor/EnableToolbar</li>
 
 <li>$:/config/Tiddlers/TitleLinks</li>
 
@@ -276,6 +280,7 @@ Error message and password prompt
 <script class="tiddlywiki-tiddler-store" type="application/json">[
 {"title":"/home/fabsmuller/MEGA/tiddly/mynewwiki/tiddlers/$__StoryList.tid","revision":"0","bag":"default"},
 {"created":"20220911213205823","title":"$:/config/AnimationDuration","text":"250","modified":"20220911213206255"},
+{"created":"20230312140032244","creator":"Fabs","title":"$:/config/DefaultMoreSidebarTab","text":"$:/core/ui/MoreSideBar/Recent","modified":"20230312140032244","modifier":"Fabs"},
 {"created":"20220911213949756","text":"yes","title":"$:/config/DownloadSaver/AutoSave","modified":"20220911213952510"},
 {"title":"$:/config/Navigation/openLinkFromInsideRiver","created":"20220907222830105","modified":"20220907222830105","type":"text/vnd.tiddlywiki","text":"top","revision":"0","bag":"default"},
 {"created":"20220914214951204","creator":"Fabs","title":"$:/config/NewJournal/Title","text":"YYYY-0MM-0DD ","modified":"20230112174223222","modifier":"Fabs"},
@@ -291,12 +296,13 @@ Error message and password prompt
 {"created":"20220914214838136","creator":"Fabs","text":"hide","title":"$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-journal","modified":"20230312112244496","modifier":"Fabs"},
 {"created":"20220908124824924","creator":"Fabs","text":"hide","title":"$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-tiddler","modified":"20230312112241175","modifier":"Fabs"},
 {"title":"$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/refresh","created":"20220907222659009","modified":"20220907222659009","type":"text/vnd.tiddlywiki","text":"show","revision":"0","bag":"default"},
-{"created":"20230312112302007","creator":"Fabs","text":"hide","title":"$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/save-wiki","modified":"20230312112302007","modifier":"Fabs"},
+{"created":"20230312112302007","creator":"Fabs","text":"show","title":"$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/save-wiki","modified":"20230312135954398","modifier":"Fabs"},
 {"created":"20220908123833700","creator":"Fabs","text":"show","title":"$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/storyview","modified":"20230312112414874","modifier":"Fabs"},
 {"created":"20220908000953897","text":"hide","title":"$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/tag-manager","modified":"20220908124830229","type":"text/vnd.tiddlywiki","revision":"0","bag":"default"},
 {"created":"20220908001001211","text":"hide","title":"$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/timestamp","modified":"20220908124832573","type":"text/vnd.tiddlywiki","revision":"0","bag":"default"},
 {"created":"20230312112341776","creator":"Fabs","text":"show","title":"$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/unfold-all","modified":"20230312112341776","modifier":"Fabs"},
 {"created":"20220919155817122","text":"yes","title":"$:/config/RelinkOnRename","modified":"20220919155817122"},
+{"created":"20230312140035067","creator":"Fabs","text":"no","title":"$:/config/TextEditor/EnableToolbar","modified":"20230312140035067","modifier":"Fabs"},
 {"title":"$:/config/Tiddlers/TitleLinks","created":"20220907222901651","modified":"20220907222901651","type":"text/vnd.tiddlywiki","text":"yes","revision":"0","bag":"default"},
 {"created":"20230312112205488","creator":"Fabs","text":"hide","title":"$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/edit","modified":"20230312112205488","modifier":"Fabs"},
 {"created":"20220911213446206","text":"show","title":"$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/info","modified":"20220911213446206"},
@@ -317,8 +323,8 @@ Error message and password prompt
 {"created":"20220908123649949","title":"$:/state/tab--2112689675","text":"$:/core/ui/ControlPanel/Basics","modified":"20230112165119631"},
 {"created":"20220915130015655","title":"$:/state/tab--86143343","text":"$:/core/ui/ControlPanel/Plugins/Installed/Plugins","modified":"20220915130017055"},
 {"created":"20220908123659653","title":"$:/state/tab--959111941","text":"$:/core/ui/ControlPanel/TiddlerFields","modified":"20220915125955713"},
-{"created":"20220908123647550","creator":"Fabs","title":"$:/state/tab-1749438307","text":"$:/core/ui/ControlPanel/Saving","modified":"20230312123555142","modifier":"Fabs"},
-{"created":"20220911213913546","creator":"Fabs","title":"$:/state/tab-2065006209","text":"$:/core/ui/ControlPanel/Saving/GitHub","modified":"20230312123558616","modifier":"Fabs"},
+{"created":"20220908123647550","creator":"Fabs","title":"$:/state/tab-1749438307","text":"$:/core/ui/ControlPanel/Settings","modified":"20230312140029113","modifier":"Fabs"},
+{"created":"20220911213913546","creator":"Fabs","title":"$:/state/tab-2065006209","text":"$:/core/ui/ControlPanel/Saving/General","modified":"20230312140019569","modifier":"Fabs"},
 {"created":"20220915131146919","title":"$:/state/tab-564337254","text":"$:/core/ui/TiddlerInfo/Listed","modified":"20220915131208011"},
 {"created":"20220908120304865","creator":"Fabs","title":"$:/state/tab/sidebar--595412856","text":"$:/core/ui/SideBar/Tools","modified":"20230312123525495","modifier":"Fabs"},
 {"created":"20220908123754972","creator":"Fabs","title":"$:/state/tabs/controlpanel/toolbars-1345989671","text":"$:/core/ui/ControlPanel/Toolbars/PageControls","modified":"20230312112236738","modifier":"Fabs"},
